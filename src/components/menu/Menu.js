@@ -1,28 +1,28 @@
 import React from "react";
 
-const Menu = ( props ) => {
+const Menu = ( {toggleMenu, menuShow} ) => {
   return (
-    <div className={`menu-container ${props.showMenu}`}>
+    <div className={`menu-container ${menuShow}`}>
       <div className="overlay" />
       <div className="menu-items">
         <ul>
           <li>
-            <a href="#welcome-section" onClick={props.toggleMenu}>
+            <a href="#welcome-section" onClick={toggleMenu}>
               HOME
             </a>
           </li>
           <li>
-            <a href="#about" onClick={props.toggleMenu}>
+            <a href="#about" onClick={toggleMenu}>
               ABOUT
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={props.toggleMenu}>
+            <a href="#projects" onClick={toggleMenu}>
               PORTFOLIO
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={props.toggleMenu}>
+            <a href="#contact" onClick={toggleMenu}>
               CONTACT
             </a>
           </li>

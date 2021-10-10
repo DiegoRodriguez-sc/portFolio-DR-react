@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-const Nav = (props) => {
+const Nav = ({toggleMenu, menuShow}) => {
  return (
   <Fragment>
     <nav id="navbar">
@@ -10,8 +10,8 @@ const Nav = (props) => {
           Diego
           <strong>Rodriguez</strong>
        </p>
-       <div className={props.showMenu === "active" ? "menu-button active": "menu-button"}
-        onClick={props.toggleMenu}
+       <div className={menuShow === "active" ? "menu-button active": "menu-button"}
+        onClick={toggleMenu}
         >
          <span />
        </div>
