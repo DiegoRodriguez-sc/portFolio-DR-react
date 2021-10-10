@@ -1,6 +1,6 @@
 import React from "react";
 
-const Menu = ({ props }) => {
+const Menu = ( props ) => {
   return (
     <div className={`menu-container ${props.showMenu}`}>
       <div className="overlay" />
