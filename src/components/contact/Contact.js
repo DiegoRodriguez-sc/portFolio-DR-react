@@ -1,6 +1,9 @@
 import React from 'react';
 import Sociallinks from './SocialLinks';
 
+// style
+import "./contact.css";
+
 const Contact = () => {
  return (
   <div>
