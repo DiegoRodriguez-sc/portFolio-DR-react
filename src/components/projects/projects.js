@@ -1,6 +1,9 @@
 import React from 'react';
 import Project from './Project';
 
+// styles
+import "./projects.css";
+
 const Projects = () => {
  return (
   <section id="projects">
