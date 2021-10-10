@@ -1,6 +1,9 @@
 import React from 'react';
 import Sociallinks from '../contact/SocialLinks';
 
+// style
+import "./footer.css";
+
 const Footer = () => {
  return (
   <footer>
