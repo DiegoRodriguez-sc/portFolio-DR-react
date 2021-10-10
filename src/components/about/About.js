@@ -1,5 +1,8 @@
 import React from "react";
 
+// styles
+import "./about.css";
+
 const About = () => {
   return (
     <section id="about">
