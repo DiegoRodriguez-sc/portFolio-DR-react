@@ -16,24 +16,19 @@ const Projects = () => {
           </p>
         </div>
         <div className="projects-wrapper">
-        {
-          data.map(proyect => (
+          {data.map((proyect) => (
             <Project
+              key={proyect.title}
               title={proyect.title}
               img={proyect.img}
               tech={proyect.tech}
               link={proyect.link}
               repo={proyect.repo}
             >
-              <small>
-              {proyect.small}
-              </small>
-              <p>
-              {proyect.p}
-              </p>
+              <small>{proyect.small}</small>
+              <p>{proyect.p}</p>
             </Project>
-          ))
-        }
+          ))}
         </div>
       </div>
     </section>
