@@ -9,16 +9,10 @@ const Projects = () => {
   <section id="projects">
   <div className="projects-container">
     <div className="heading">
-      <h3 className="title">My Works</h3>
+      <h3 className="title">Mis proyectos</h3>
       <p className="separator" />
       <p className="subtitle">
-        Here's a list of <u>most</u> of the projects I've been working on lately. All of these
-        were built during my coding camp adventure on{' '}
-        <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
-          freeCodeCamp
-        </a>
-        , where I've been coding for almost 7 months non-stop until I completed all the projects
-        required to get my Full-Stack Developer certification.
+        Aquí hay una lista de la mayoría de los proyectos en los que he estado trabajando últimamente.
       </p>
     </div>
     <div className="projects-wrapper">

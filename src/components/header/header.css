@@ -1,6 +1,6 @@
 #welcome-section {
- background: #202736;
- background: linear-gradient(to bottom, #181d23 0%, #202736 80%);
+ background: #0f0e17;
+ /* background: linear-gradient(to bottom, #181d23 0%, #202736 80%); */
  background-attachment: fixed;
  background-size: cover;
  position: relative;
@@ -12,7 +12,7 @@
 #welcome-section::before {
  content: '';
  position: fixed;
- background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
+ /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true); */
  background-attachment: fixed;
  width: 100%;
  min-height: 100vh;
@@ -35,13 +35,13 @@
  position: absolute;
  bottom: -300px;
  left: 0;
- background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x;
+ background: url(../../assets/bg1.svg) bottom left repeat-x;
  background-size: cover;
  width: 100%;
  height: 80%;
  opacity: 0;
  animation: forest-move-in 1000ms 500ms forwards;
- border-bottom: 300px solid #181d23;
+ border-bottom: 300px solid #0f0e17;
 }
 
 @keyframes forest-move-in {
@@ -58,7 +58,8 @@
  position: absolute;
  bottom: 0;
  left: 0;
- background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Silhouette.svg?sanitize=true) bottom left no-repeat;
+ background: url(../../assets/monster.svg) bottom left no-repeat;
+ background-size: cover;
  width: 50%;
  height: 50%;
  opacity: 0;
@@ -80,13 +81,14 @@
  top: 0;
  right: 0;
  position: fixed;
- background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+ background: url(../../assets/moon.svg) right 150% no-repeat;
  background-size: 40% 40%;
  background-attachment: fixed;
  width: 100%;
  height: 100%;
  z-index: -1;
  opacity: 0;
+ filter: drop-shadow(0 2px 10px #FEFBBC);
  animation: moon-move-in 1.2s 1s forwards;
 }
 
@@ -124,11 +126,11 @@
 }
 
 #welcome-section .container h1 {
- font-size: 4rem;
- font-weight: normal;
- font-style: italic;
+ font-size: 3rem;
+ font-weight: bold;
  color: #fafafa;
  line-height: 3rem;
+ -webkit-text-stroke: 2px black;
 }
 
 #welcome-section .container h1 .line:first-child {
@@ -148,7 +150,11 @@
 #welcome-section .container .buttons a:visited {
  width: 100%;
  padding: 1rem;
- border: 1px solid #fafafa;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 3px solid #fafafa;
+ border-radius: 5px;
  color: #fafafa;
  text-align: center;
  text-transform: uppercase;
@@ -157,14 +163,14 @@
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
- border: 1px solid #f300b4;
+ border: 3px solid #FE631B;
  transform: translateY(-2px);
- box-shadow: 0 10px 100px -20px #f300b4;
+ box-shadow: 0 10px 100px -20px #FE631B;
 }
 
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
- background: #f300b4;
+ background: #FE631B;
  border: 1px solid transparent;
  color: #fafafa;
  font-weight: bold;
@@ -173,7 +179,7 @@
 #welcome-section .container .buttons a.cta:hover,
 #welcome-section .container .buttons a.cta:active {
  background: transparent;
- border: 1px solid #f300b4;
+ border: 3px solid #FE631B;
 }
 
 #welcome-section .container .buttons a:first-child {
@@ -211,4 +217,10 @@
  .silhouette {
    width: 100%;
  }
+
+ #welcome-section .container .buttons a,
+ #welcome-section .container .buttons a:visited{
+    padding: .3rem;
+}
+
 }

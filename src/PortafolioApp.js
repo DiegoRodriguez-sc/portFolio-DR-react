@@ -14,7 +14,7 @@ import "./style.css";
 const Portafolioapp = () => {
 
   const [menu, setMenu] = useState(false);
-  const [menuShow, setMenuShow] = useState("active");
+  const [menuShow, setMenuShow] = useState("deactive");
 
 
   const toggleMenu = () => {
@@ -75,7 +75,6 @@ const Portafolioapp = () => {
     <About />
     <Projects />
     <Contact />
-    <Footer />
   </Fragment>
  );
 }

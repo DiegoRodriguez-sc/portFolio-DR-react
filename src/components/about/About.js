@@ -9,21 +9,21 @@ const About = () => {
       <div className="wrapper">
         <article>
           <div className="title">
-            <h3>Who's this guy?</h3>
+            <h3>About me</h3>
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Yago.</h4>
+            <h4 className="subtitle">My name is Diego.</h4>
             <p>
-              I am a web developer and UX designer based in the beautiful west
-              coast of Spain, Galicia.
+              I am a university students of systems and web developer from
+              Buenos Aires, Argentina.
             </p>
             <p>
-              I really enjoy solving problems as well as making things pretty
-              and easy to use. I can't stop learning new things; the more, the
-              better. I also love photography, a hobby I'm taking along since
-              the good old film cameras. Oh, and rice with milk; I have a
-              passion for rice with milk!
+              I really enjoy solving problems and making things nice and easy to
+              use. I can't stop learning new things; the more the merrier. I
+              also love video games. A hobby that led me to meet and compete
+              with good people. Ah, and Dulce de leche; I have a passion for
+              dulce de leche!
             </p>
           </div>
           <div className="title">
@@ -40,23 +40,7 @@ const About = () => {
             </p>
             <p>
               For the back-end I also work with Javascript (NodeJS, Express,
-              MongoDB, etc). But, of course, whenever the project requires PHP,
-              I do PHP as well (Wordpress, Laravel, etc).
-            </p>
-          </div>
-          <div className="desc">
-            <h4 className="subtitle">Also a designer.</h4>
-            <p>
-              I feel comfortable working with many Adobe products. Photoshop,
-              Illustrator, InDesign, Lightroom or Xd are some kind of industry
-              standards and I love working with them. I'm not limited to them,
-              though: Gimp, Inkscape or Figma are also very valid applications
-              that I've been working with.
-            </p>
-            <p>
-              User interfaces, brochures, books, branding... You name it! As I
-              mentioned, creating pretty things is particularly important for
-              me.
+              MongoDB, etc.). But, lately I am learning java with Spring Boot.
             </p>
           </div>
         </article>
