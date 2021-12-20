@@ -34,7 +34,7 @@ const About = () => {
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
               For the front-end I usually work with Javascript, either
-              standalone or including popular frameworks like ReactJS and VueJS.
+              standalone or including popular frameworks like ReactJS.
               I also make the web pretty by using Sass, CSS and, whenever
               needed, any of their friends: Bootstrap, Bulma, etc.
             </p>
