@@ -30,7 +30,7 @@ const About = () => {
             <h3>What does he do?</h3>
             <p className="separator" />
           </div>
-          <div className="desc">
+          <div className="desc full">
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
               For the front-end I usually work with Javascript, either
