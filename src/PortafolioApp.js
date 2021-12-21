@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Fragment } from 'react';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
 import Nav from './components/nav/Nav';

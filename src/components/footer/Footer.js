@@ -7,9 +7,9 @@ import "./footer.css";
 const Footer = () => {
  return (
   <footer>
-  <div className="wrapper">
+  <div className="wrapper" style={{color:"white"}}>
     <h3>THANKS FOR VISITING</h3>
-    <p>© {new Date().getFullYear()} Yago Estévez.</p>
+    <p>© {new Date().getFullYear()} Diego Rodriguez.</p>
     <Sociallinks />
   </div>
 </footer>

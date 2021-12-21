@@ -1,5 +1,5 @@
 import React from 'react';
-import Sociallinks from './SocialLinks';
+import { IoMailOutline, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 // style
 import "./contact.css";
@@ -17,25 +17,15 @@ const Contact = () => {
             </p>
             <p className="separator" />
             <p className="subtitle">
-              Please, use the form below or send an email to {''}
-              <span className="mail">
-                web
-                <i className="fas fa-at at" />
-                yagoestevez
-                <i className="fas fa-circle dot" />
-                com
-              </span>
-              :
+               Please, you can press the icons or you can find me with the link to contact me:
             </p>
           </div>
-          <Sociallinks />
         </div>
-        <form id="contact-form" action="#">
-          <input placeholder="Name" name="name" type="text" required />
-          <input placeholder="Email" name="email" type="email" required />
-          <textarea placeholder="Message" type="text" name="message" />
-          <input className="button" id="submit" value="Submit" type="submit" />
-        </form>
+      <div className='icons'>
+        <p> <IoMailOutline /> Diego.rodriguez.sc@gmail.com </p>
+        <p> <IoLogoGithub /> Diego Rodriguez</p>
+        <p> <IoLogoLinkedin /> Diego Rodriguez </p>
+      </div>   
       </div>
     </section>
   </div>
