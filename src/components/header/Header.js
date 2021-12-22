@@ -1,7 +1,9 @@
 import React from 'react';
+import curriculum from "../../assets/PDF/DiegoRodriguez.pdf";
 
 // styles
 import "./header.css";
+
 
 const Header = () => {
  return (
@@ -15,7 +17,7 @@ const Header = () => {
        </h1>
        <div className="buttons">
           <a href="#projects">Porfolio</a>
-          <a href="#contact" className="cta">
+          <a href={curriculum} target={"_blank"} download={"Diego Rodriguez"} className="cta" rel="noreferrer">
             Download CV
           </a>
         </div>
