@@ -7,6 +7,7 @@ import Menu from './components/menu/Menu';
 import Nav from './components/nav/Nav';
 import Projects from './components/projects/Projects';
 
+
 //styles
 import "./style.css";
 
