@@ -27,18 +27,19 @@ const Contact = () => {
                 Please, you can press the icons or you can find me with the link
                 to contact me:
               </p>
+              <br />
+              <div className="subtitle">
+                <p onClick={handleEmail}>
+                  <IoMailOutline /> Diego.rodriguez.sc@gmail.com{" "}
+                </p>
+                <p onClick={handleGithub}>
+                  <IoLogoGithub /> DiegoRodriguez-sc
+                </p>
+                <p onClick={handleLinkedin}>
+                  <IoLogoLinkedin /> Diego Rodriguez{" "}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="subtitle icons">
-            <p onClick={handleEmail}>
-              <IoMailOutline /> Diego.rodriguez.sc@gmail.com{" "}
-            </p>
-            <p onClick={handleGithub}>
-              <IoLogoGithub /> DiegoRodriguez-sc
-            </p>
-            <p onClick={handleLinkedin}>
-              <IoLogoLinkedin /> Diego Rodriguez{" "}
-            </p>
           </div>
         </div>
       </section>

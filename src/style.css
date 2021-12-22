@@ -914,6 +914,10 @@ a:active {
   }
 }
 
+.subtitle p:hover{
+    color: #FE631B;
+    cursor: pointer;
+}
 
 
 
