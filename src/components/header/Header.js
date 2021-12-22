@@ -1,9 +1,6 @@
 import React from 'react';
 import curriculum from "../../assets/PDF/DiegoRodriguez.pdf";
 
-// styles
-import "./header.css";
-
 
 const Header = () => {
  return (

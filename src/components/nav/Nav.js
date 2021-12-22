@@ -1,8 +1,6 @@
 import React from 'react';
 import { Fragment } from 'react';
 
-// style
-import "./nav.css";
 
 const Nav = ({toggleMenu, menuShow}) => {
  return (

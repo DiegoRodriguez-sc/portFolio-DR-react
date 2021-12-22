@@ -1,8 +1,5 @@
 import React from "react";
 
-//styles
-import "./menu.css";
-
 const Menu = ( {toggleMenu, menuShow} ) => {
   return (
     <div className={`menu-container ${menuShow}`}>

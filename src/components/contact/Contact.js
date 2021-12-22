@@ -1,9 +1,6 @@
 import React from "react";
 import { IoMailOutline, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
-// style
-import "./contact.css";
-
 const Contact = () => {
   const handleEmail = () => {
     window.open("mailto:diego.rodriguez.sc@gmail.com");
@@ -32,7 +29,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="icons">
+          <div className="subtitle icons">
             <p onClick={handleEmail}>
               <IoMailOutline /> Diego.rodriguez.sc@gmail.com{" "}
             </p>
