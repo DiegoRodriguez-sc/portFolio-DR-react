@@ -13,7 +13,7 @@ const Header = () => {
         <span className="line"> Web developer</span>
        </h1>
        <div className="buttons">
-          <a href="#projects">Porfolio</a>
+          <a href="#projects">Portfolio</a>
           <a href={curriculum} target={"_blank"} download={"Diego Rodriguez"} className="cta" rel="noreferrer">
             Download CV
           </a>
