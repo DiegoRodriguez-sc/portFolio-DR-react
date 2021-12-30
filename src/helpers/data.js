@@ -83,8 +83,8 @@ export const data = [
     img: ongWeb,
     tech: "Js css Bootstrap React node MongoDB",
     link: "",
-    repo: "https://github.com/DiegoRodriguez-sc/ong-app-web",
+    repo: "https://github.com/FedeHC/ONG-Somos-Mas",
     small:"Built using Node, Express, MongoDB, CSS + Bootstrap, React.js and React Router.",
-    p:"This is a full-stack website of an ONG, it will have a backoffice where administrators will be able to log and edit the activities, news and all the information of the page"
+    p:"This project was developed in React over 6 weeks together with a team of 5 colleagues during the Alkemy Labs acceleration, in order to be job ready by simulating a real work environment together with a mentor."
   },
 ];
