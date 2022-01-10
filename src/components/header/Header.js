@@ -1,5 +1,5 @@
 import React from 'react';
-import curriculum from "../../assets/PDF/DiegoRodriguez.pdf";
+import curriculum from "../../assets/PDF/Diego-rodriguez-cv.pdf";
 
 
 const Header = () => {
